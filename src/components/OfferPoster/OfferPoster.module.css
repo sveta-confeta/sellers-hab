@@ -1,0 +1,32 @@
+.posterWrapper{
+    max-width: 1200px;
+    background-color:  #357EFE;
+    margin: 0 auto 189px auto;
+    min-height: 340px;
+    background-image: url("/src/assets/FramePoster.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.contentPoster{
+    position: absolute;
+    transform: translate(10% ,50%);
+}
+
+.title{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,34 @@
+.cardWrapper{
+    min-height: 463px;
+    max-width: 387px;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 115.8%;
+    margin: 24px 0 12px 0;
+}
+.text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #232727;
+    width: 100%;
+
+}
+.contentVideo {
+    width: 387px;
+    height: 318px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+
+
+}
+.video{
+    object-fit: cover;
+}

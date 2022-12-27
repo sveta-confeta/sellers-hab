@@ -1,0 +1,9 @@
+ul.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul.nav li:not(:last-child){
+    padding-right: 50px;
+
+}

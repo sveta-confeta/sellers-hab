@@ -1,0 +1,22 @@
+.specialistsCardsWrapper{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-bottom: 180px;
+
+}
+.title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 115.8%;
+    margin-bottom: 50px;
+}
+.specialistsCards{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+
+

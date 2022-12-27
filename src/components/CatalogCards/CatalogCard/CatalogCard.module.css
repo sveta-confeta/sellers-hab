@@ -1,0 +1,19 @@
+.card{
+    background: #F6F6FA;
+    border-radius: 10px;
+    padding: 32px 32px 0 32px;
+
+}
+.cardTitle{
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 115.8%;
+}
+.cardText{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #232727;
+    margin-bottom: 33px;
+}

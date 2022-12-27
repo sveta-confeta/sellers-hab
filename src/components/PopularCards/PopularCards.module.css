@@ -1,0 +1,31 @@
+
+
+.PopularCardsWrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 180px;
+}
+.titleElements{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    margin-bottom: 50px;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 115.8%;
+}
+.link{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #357EFE;
+
+}
+.catalogsCards{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}

@@ -1,0 +1,31 @@
+.offerWrapper{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    gap: 82px;
+    margin-bottom: 150px;
+
+}
+.offerContent{
+    max-width: 386px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   justify-self: flex-start;
+}
+.offerContent h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #232727;
+}
+.offerContent p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #232727;
+
+}
+.offerContent li:not(:last-child){
+    margin-bottom: 60px;
+}

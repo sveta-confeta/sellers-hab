@@ -1,0 +1,18 @@
+.catalogsCardsWrapper{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-bottom: 191px;
+}
+
+.title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 115.8%;
+    margin-bottom: 39px;
+}
+.catalogsCards{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
