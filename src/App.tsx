@@ -8,9 +8,9 @@ import {SpecialistsCards} from "./components/SpecialistsCards/SpecialistsCards";
 import {OfferAsaid} from "./components/OfferAsaid/OfferAsaid";
 import {PopularCards} from "./components/PopularCards/PopularCards";
 import {QuestionsPage} from "./components/QuestionsPage/QuestionsPage";
-import {ForumAside} from "./components/ForumAside/ForumAside";
 import {Footer} from "./components/Footer/Footer";
 import {OfferPoster} from "./components/OfferPoster/OfferPoster";
+import {ForumPoster} from "./components/ForumPoster/ForumPoster";
 
 function App() {
     return (
@@ -26,8 +26,8 @@ function App() {
             <OfferAsaid/>
             <PopularCards/>
             <QuestionsPage/>
-            <ForumAside/>
-            {/*<Footer/>*/}
+            <ForumPoster/>
+            <Footer/>
         </div>
     );
 }
