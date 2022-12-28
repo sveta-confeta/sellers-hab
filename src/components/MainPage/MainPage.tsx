@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Main.module.css'
 import {Button} from "../../common/Button/Button";
-import mainPoster from '../../assets/video/posters/MainPoster.png'
+import mainPoster from '../../assets/MainPoster.png'
 
 
 
@@ -19,7 +19,7 @@ const MainPage = () => {
             </div>
 
             <div className={s.contentVideo}>
-                <video autoPlay  muted poster={mainPoster}  loop >
+                <video    muted poster={mainPoster}  loop >
                     <source src={require('../../assets/video/Main.mp4')} type="video/mp4" className={s.video}/>
                 </video>
             </div>
