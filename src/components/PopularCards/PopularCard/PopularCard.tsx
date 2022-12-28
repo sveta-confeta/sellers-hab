@@ -19,7 +19,7 @@ export const PopularCard = (props:PopularCardType) => {
             <h4 className={s.title}>{props.title}</h4> <span>oт{props.price}&#8381;</span>
             </div>
             <p className={s.info}>{props.info}</p>
-            <Button variant={'BLUE'} padding={'17px 97px'} name={props.name}/>
+            <Button variant={'BLUE'} padding={'17px 97px'} name={props.name} size={"medium"}/>
 
         </div>
     );

@@ -8,7 +8,7 @@ export const OfferPoster = () => {
             <div className={s.contentPoster}>
                 <h4 className={s.title}>Есть что предложить селлерам?</h4>
                 <p className={s.text}>Создай свой профиль в каталоге Sellershub</p>
-                <Button variant={'WHITE'} padding={'17px 36px'} name={'Присоединиться'}/>
+                <Button variant={'WHITE'} padding={'17px 36px'} name={'Присоединиться'} size={"medium"}/>
             </div>
         </div>
     );
