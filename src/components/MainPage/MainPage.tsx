@@ -19,8 +19,8 @@ const MainPage = () => {
             </div>
 
             <div className={s.contentVideo}>
-                <video autoPlay  muted poster={mainPoster}  loop >
-                    <source src={require('../../assets/video/Main.mp4')} type="video/mp4" className={s.video}/>
+                <video autoPlay  muted poster={mainPoster}  loop className={s.video}>
+                    <source src={require('../../assets/video/Main.mp4')} type="video/mp4" />
                 </video>
             </div>
 
