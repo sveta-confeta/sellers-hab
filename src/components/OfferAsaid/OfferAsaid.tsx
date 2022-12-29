@@ -1,8 +1,12 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import s from './OfferAsaid.module.css'
-import OfferImg from './../../assets/OfferImg.png'
-import OfferImgMob from './../../assets/OfferImgMob.jpg'
+import MainImg from './../../assets/OfferImg/MainImg.jpg'
 import {Button} from "../../common/Button/Button";
+import BottomImg from './../../assets/OfferImg/BottomImg.jpg'
+import TopImg from './../../assets/OfferImg/TopImg.jpg';
+import BackImg from './../../assets/OfferImg/Setka.png'
+
+
 
 export const OfferAsaid = () => {
     // const [openImgMob, setOpenImgMob] = useState<boolean>(false)
@@ -15,9 +19,15 @@ export const OfferAsaid = () => {
 
 
     return (
-
         <div className={s.offerWrapper}>
-            <div className={s.wrapper}><img src={OfferImg} className={s.imgWrapper} alt="Девушка что то читает в ноутбуке"/></div>
+
+          <div className={s.imgWrapper}>
+              <img src={MainImg}  className={s.mainImg} alt="Девушка которая что то читает в ноутбуке"/>
+              <img src={BottomImg} className={s.bottomImg} alt="пример отзыва"/>
+              <img src={TopImg}  className={s.topImg} alt="пример рейтинга"/>
+              <img src={BackImg} className={s.backImg} alt="декоративная сетка"/>
+
+          </div>
             {/*<div className={s.imgWrapperMob}>*/}
             {/*    <img className={openImgMob ? s.offerImg : s.offerImgMob}*/}
             {/*         src={openImgMob ? OfferImgMob : OfferImg}*/}

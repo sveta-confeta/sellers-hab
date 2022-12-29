@@ -7,12 +7,15 @@ ul.nav li:not(:last-child){
     padding-right: 50px;
 
 }
-.nav_elem{
+.nav li a{
+    text-decoration: none;
     font-weight: 400;
     font-size: 18px;
     line-height: 135%;
     color: #232727;
 }
+
+
 
 @media (max-width: 882px) {
  ul.nav{

@@ -6,7 +6,7 @@ export const Footer = () => {
     return (
         <div className={s.footerWrapper}>
             <div className={s.footerContent}>
-                <div className={s.infoFooter}>
+
                     <img className={s.footerLogo} src={Logo}/>
                     <div className={s.soc}>
                         <p>Будтье в курсе новостей!</p>
@@ -41,40 +41,41 @@ export const Footer = () => {
 
                         </ul>
                     </div>
-                </div>
+
 
                 <div className={s.footerNav}>
                     <ul className={s.product}>
                         <li><h4>Продукт</h4></li>
-                        <li>Каталог</li>
-                        <li>Вопросы и ответы</li>
-                        <li>Блог</li>
-                        <li>О компании</li>
-                        <li>Помощь</li>
+                        <li><a href={'#'}>Каталог</a></li>
+                        <li><a href={'#'}>Вопросы и ответы</a></li>
+                        <li><a href={'#'}>Блог</a></li>
+                        <li><a href={'#'}>О компании</a></li>
+                        <li><a href={'#'}>Помощь</a></li>
                     </ul>
                     <ul className={s.categories}>
                         <li><h4>Категории</h4></li>
-                        <li>SMM</li>
-                        <li>Видео и аудио</li>
-                        <li>Поддержка</li>
-                        <li>Копирайтинг</li>
-                        <li>Все сравнения</li>
+                        <li><a href={'#'}>SMM</a></li>
+                        <li><a href={'#'}>Видео и аудио</a></li>
+                        <li><a href={'#'}>Поддержка</a></li>
+                        <li><a href={'#'}>Копирайтинг</a></li>
+                        <li><a href={'#'}>Все сравнения</a></li>
 
                     </ul>
                     <ul className={s.next}>
-                        <li>Разработка</li>
-                        <li>Маркетинг</li>
-                        <li>Музыка</li>
-                        <li>Бизнес</li>
-                        <li>Дизайн</li>
+                        <li><a href={'#'}>Разработка</a></li>
+                        <li><a href={'#'}>Маркетинг</a></li>
+                        <li><a href={'#'}>Музыка</a></li>
+                        <li><a href={'#'}>Бизнес</a></li>
+                        <li><a href={'#'}>Дизайн</a></li>
                     </ul>
 
                 </div>
+
             </div>
             <div className={s.footerInfoPanel}>
-                <p>© 2022 Sellershub.</p>
-                <div className={s.wrapper}>
-                    <p>Условия использования</p>
+                <p className={s.hub}>© 2022 Sellershub.</p>
+                <div className={s.InfoPanelwrapper}>
+                    <p >Условия использования</p>
                     <p>Политика конфиденциальности</p>
                 </div>
             </div>

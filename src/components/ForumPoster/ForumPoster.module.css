@@ -1,12 +1,13 @@
-.forumPoster{
+.forumPoster {
     width: 100%;
     background-color: #357EFE;
     min-height: 340px;
-    background-image: url("./../../assets/ForumPoster_front.png"),url("./../../assets/ForumPoster_back.png");
+    background-image: url("./../../assets/ForumPoster_front.png"), url("./../../assets/ForumPoster_back.png");
     background-repeat: no-repeat;
     background-position: left 10% top 0, left 3% top 0;
 }
-.posterContainer{
+
+.posterContainer {
     margin: 0 auto;
     max-width: 1200px;
     min-height: 340px;
@@ -14,9 +15,9 @@
     align-items: center;
 
 
-
 }
-.posterContent{
+
+.posterContent {
     display: flex;
     flex-direction: column;
     max-width: 447px;
@@ -24,17 +25,58 @@
     align-items: flex-start;
 }
 
-.title{
+.title {
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
     color: #FFFFFF;
     margin-bottom: 8px;
 }
-.text{
+
+.text {
     font-weight: 400;
     font-size: 18px;
     line-height: 135%;
     color: #FFFFFF;
     margin-bottom: 30px;
+}
+
+@media (max-width: 1250px) {
+    .forumPoster {
+        margin: 0 auto 100px auto;
+    }
+}
+
+@media (max-width: 830px) {
+    .forumPoster {
+        margin: 0 auto 100px auto;
+        border-radius: 10px;
+        width: 343px;
+        min-height: 589px;
+        background-position: top 0 right -159px;
+        background-size: 548px 300px;
+        position: relative;
+    }
+
+    .contentPoster {
+        position: absolute;
+        transform: translate(10%, 148%);
+    }
+
+    .posterContent {
+        position: absolute;
+        transform: translate(10%, 111%);
+        margin-left: 0;
+        max-width: 330px;
+    }
+
+    .title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .text {
+        line-height: 24px;
+    }
+
 }
