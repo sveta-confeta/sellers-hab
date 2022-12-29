@@ -2,10 +2,11 @@
     background: #F6F6FA;
     border-radius: 10px;
     padding: 20px;
+    max-width: 387px;
 }
 .popularCardImg{
     margin-bottom: 20px;
-    width: 344px;
+    width: 347px;
     border-radius: 10px;
 }
 .cardItems{
@@ -16,3 +17,27 @@
 .info{
     margin-bottom: 32px;
 }
+.title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #232727;
+}
+.price{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ABBED1;
+
+}
+@media (max-width: 1250px){
+    .popularCardWrapper{
+        max-width: 343px;
+    }
+    .popularCardImg{
+        margin-bottom: 20px;
+        width: 305px;
+        border-radius: 10px;
+    }
+
+    }

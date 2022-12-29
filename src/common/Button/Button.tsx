@@ -8,31 +8,35 @@ type ButtonPropsType = {
     padding: string
     active?: boolean
     disabled?: boolean
-    size: "small" |"medium"
+    size: "small" | "medium"
+    className?: string
 
 }
 
-export const Button: React.FC<ButtonPropsType> = ({  variant,size,
+export const Button: React.FC<ButtonPropsType> = ({
+                                                      variant, size,
                                                       name,
-                                                      padding,active, disabled
+                                                      padding, active, disabled, className
                                                   }) => {
 
-
     return (
-        size==="small" ?
-            (  variant==="BLUE"
-        ?  <button className={`${s.btn} ${s.blue} ${active}  ${s.small} `} disabled={disabled} style={{
-            padding
-            }}>{name}</button>
-            :  <button className={`${s.btn} ${active}  ${s.white}  ${s.small}`} disabled={disabled} style={{
-                padding
-            }}>{name}</button>)
-:
-            (  variant==="BLUE"
-                ?  <button className={`${s.btn} ${s.blue} ${active}  ${s.medium}`} disabled={disabled} style={{
+        size === "small"
+            ?
+            (variant === "BLUE"
+                ? <button className={`${s.btn} ${s.blue} ${active}  ${s.small} ${className}`}
+                          disabled={disabled}
+                          style={{padding}}>
+                    {name}
+                </button>
+                : <button className={`${s.btn} ${active}  ${s.white}  ${s.small}`} disabled={disabled} style={{
+                    padding
+                }}>{name}</button>)
+            :
+            (variant === "BLUE"
+                ? <button className={`${s.btn} ${s.blue} ${active}  ${s.medium}`} disabled={disabled} style={{
                     padding
                 }}>{name}</button>
-                :  <button className={`${s.btn} ${active}  ${s.white}  ${s.medium}`} disabled={disabled} style={{
+                : <button className={`${s.btn} ${active}  ${s.white}  ${s.medium}`} disabled={disabled} style={{
                     padding
                 }}>{name}</button>)
 

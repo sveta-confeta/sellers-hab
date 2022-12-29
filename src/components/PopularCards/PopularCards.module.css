@@ -2,8 +2,7 @@
 
 .PopularCardsWrapper{
     max-width: 1200px;
-    margin: 0 auto;
-    margin-bottom: 180px;
+    margin: 0 auto 180px auto;
 }
 .titleElements{
     display: flex;
@@ -22,10 +21,37 @@
     font-size: 20px;
     line-height: 25px;
     color: #357EFE;
+    text-decoration: none;
 
 }
 .catalogsCards{
     display: flex;
     justify-content: space-between;
     gap: 20px;
+}
+@media (max-width: 1250px){
+    .PopularCardsWrapper{
+        margin: 0 auto 100px auto;
+        padding: 0 16px;
+    }
+    .catalogsCards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .titleElements{
+        display: block;
+        margin-bottom: 25px;
+    }
+    .title{
+        margin-bottom: 8px;
+    }
+}
+@media (max-width: 728px){
+    .catalogsCards{
+        gap: 50px;
+    }
+    .title{
+        font-size: 28px;
+        line-height: 34px;
+    }
 }

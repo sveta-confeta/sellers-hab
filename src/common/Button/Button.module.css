@@ -1,47 +1,64 @@
-.btn{
+.boxBtn {
+    padding: 10px;
+    margin: 20px;
+}
+
+@media screen {
+    .boxBtn {
+        padding: 5px;
+        margin: 10px;
+    }
+}
+
+
+.btn {
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.5s linear;
 }
 
-.small{
+.small {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
 }
-.medium{
+
+.medium {
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
 }
 
-.btn:disabled{
+.btn:disabled {
     background: #EEF5FC;
     color: #ABBED1;
-    border:none
+    border: none
 }
-.btn:focus{
+
+.btn:focus {
     outline: 1px solid #232727;
 
 }
 
-.blue{
-    background-color:  #357EFE;
-    color:#fff;
+.blue {
+    background-color: #357EFE;
+    color: #fff;
     border: none;
 }
-.blue:hover{
+
+.blue:hover {
     background-color: #1760E1;
 
 
 }
 
-.white{
+.white {
     background-color: #ffffff;
     border: 1px solid rgba(30, 30, 30, 0.5);
     color: #232727;
 }
-.white:hover{
+
+.white:hover {
     border: 1px solid #357EFE;
 }
 
