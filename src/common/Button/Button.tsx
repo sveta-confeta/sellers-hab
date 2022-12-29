@@ -9,25 +9,13 @@ type ButtonPropsType = {
     active?: boolean
     disabled?: boolean
     size: "small" |"medium"
+
 }
 
 export const Button: React.FC<ButtonPropsType> = ({  variant,size,
                                                       name,
                                                       padding,active, disabled
                                                   }) => {
-
-
-    let sx = {
-        borderRadius: '10px',
-        fontWeight: 500,
-        fontSize: '16px',
-        lineHeight: '19px',
-        cursor: 'pointer',
-        textTransform: 'none!important',
-        transition: 'background 1s ease-in',
-    };
-
-
 
 
     return (

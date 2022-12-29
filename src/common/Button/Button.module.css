@@ -21,7 +21,8 @@
     border:none
 }
 .btn:focus{
-    border: 1px solid #232727;;
+    outline: 1px solid #232727;
+
 }
 
 .blue{
@@ -30,7 +31,8 @@
     border: none;
 }
 .blue:hover{
-    background-color: #1760E1;;
+    background-color: #1760E1;
+
 
 }
 

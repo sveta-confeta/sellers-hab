@@ -1,5 +1,5 @@
 import React from 'react';
-import s  from './Result.module.css'
+import s  from './OurResultPage.module.css'
 
 const OurResultPage = () => {
     return (

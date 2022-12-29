@@ -32,3 +32,23 @@ video {
 .video{
     object-fit: cover;
 }
+
+@media (max-width: 1250px) {
+    .contentVideo {
+        width: 343px;
+        height:282px;
+    }
+    .cardWrapper{
+        min-height: 282px;
+        max-width: 343px;
+    }
+    .contentVideo{
+        margin-right: 20px;
+    }
+}
+/*@media (max-width: 999px) {*/
+/*    .cardWrapper{*/
+/*        min-height: 400px;*/
+/*        max-width: 300px;*/
+/*    }*/
+/*}*/

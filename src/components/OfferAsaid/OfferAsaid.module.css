@@ -1,9 +1,8 @@
 .offerWrapper{
-    margin: 0 auto;
+    margin: 0 auto 150px auto;
     max-width: 1200px;
     display: flex;
     gap: 82px;
-    margin-bottom: 150px;
 
 }
 .offerContent{
@@ -28,4 +27,21 @@
 }
 .offerContent li:not(:last-child){
     margin-bottom: 60px;
+}
+.imgWrapper{
+    width: 630px;
+    height: 550px;
+}
+.imgWrapperMob{
+    width: 343px;
+    height: 367px;
+}
+
+@media (max-width: 1250px){
+    .offerWrapper{
+        padding: 0 16px;
+        gap:20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }

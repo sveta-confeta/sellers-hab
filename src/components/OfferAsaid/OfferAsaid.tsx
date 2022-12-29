@@ -1,12 +1,24 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import s from './OfferAsaid.module.css'
 import OfferImg from './../../assets/OfferImg.png'
+import OfferImgMob from './../../assets/OfferImgMob.jpg'
 import {Button} from "../../common/Button/Button";
 
 export const OfferAsaid = () => {
+    const [openImgMob, setOpenImgMob] = useState<boolean>(false)
+
+    useEffect(() => {
+        if (window.innerWidth < 1000) {
+            setOpenImgMob(true)
+        }
+    }, [openImgMob]);
+
+
     return (
+
         <div className={s.offerWrapper}>
-            <img src={OfferImg}/>
+            {openImgMob ? <div className={s.imgWrapperMob}> <img className={s.offerImgMob} src={OfferImgMob} alt="Девушка что то читает в ноутбуке"  /></div> :
+                <div className={s.imgWrapper}><img src={OfferImg} className={s.offerImg} alt="Девушка что то читает в ноутбуке"  /> </div>}
             <ul className={s.offerContent}>
                 <li><h4>У тебя будет поток клиентов</h4>
                 <p>Нашими каталогами ежемесячно пользуются 20000+ продавцов. Вашей услуги еще нет в нашем каталоге? Если вы - специалист в любой из 26 категорий, то срочно создайте свой профиль.</p>

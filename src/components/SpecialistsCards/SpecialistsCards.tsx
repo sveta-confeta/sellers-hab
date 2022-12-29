@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import s from "../SpecialistsCards/SpecialistsCards.module.css";
 import {SpecialistsCard} from "./SpecialistsCard/SpecialistsCard";
 import categoryPoster from './../../assets/video/posters/SpecialistPoster.jpg'
@@ -6,10 +6,18 @@ import buttonsPoster from './../../assets/video/posters/ButtonsPosters.jpg'
 import carouselPoster from './../../assets/video/posters/CarouselPoster.jpg'
 
 export const SpecialistsCards = () => {
+    const [changeTitle, setChangeTitle] = useState<boolean>(false)
+
+    useEffect(() => {
+        if (window.innerWidth < 650) {
+            setChangeTitle(true)
+        }
+    }, []);
     return (
 
         <div className={s.specialistsCardsWrapper}>
-            <h3 className={s.title}>Как работают каталоги?</h3>
+            {!changeTitle ? <h3 className={s.title}>Как работают каталоги?</h3> :
+                <h3 className={s.title}>Как это работает</h3>}
             <div className={s.specialistsCards}>
                 <SpecialistsCard poster={categoryPoster} src={require('./../../assets/video/Categories3.mp4')}
                                  title={'Выберите категорию специалиста'}
@@ -23,6 +31,6 @@ export const SpecialistsCards = () => {
             </div>
         </div>
 
-)
+    )
 
 };

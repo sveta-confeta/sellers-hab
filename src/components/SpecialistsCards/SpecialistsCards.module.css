@@ -16,6 +16,30 @@
     justify-content: space-between;
     gap: 20px;
 }
+@media (max-width: 1250px) {
+    .specialistsCardsWrapper{
+        padding: 0 16px 100px 16px;
+    }
+    .specialistsCards{
+        justify-content:space-around;
+        flex-wrap: wrap;
+    }
+
+}
+@media (max-width: 1116px) {
+    .specialistsCards{
+        gap: 50px;
+    }
+
+}
+@media (max-width: 792px) {
+    .title{
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+}
+
 
 
 
