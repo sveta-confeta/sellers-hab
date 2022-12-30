@@ -3,12 +3,7 @@
     margin: 20px;
 }
 
-@media screen {
-    .boxBtn {
-        padding: 5px;
-        margin: 10px;
-    }
-}
+
 
 
 .btn {
@@ -16,6 +11,7 @@
     cursor: pointer;
     transition: all 0.5s linear;
 }
+
 
 .small {
     font-weight: 500;

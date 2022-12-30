@@ -73,10 +73,20 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin-left: 152px;
+    margin-right: 50px;
+}
+.categories{
+    margin-left: 10px;
+}
+.product{
+    margin-left: 110px;
 }
 .footerNav li a{
     text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #232727;
 }
 
 .product li:not(:first-child), .categories li:not(:first-child), .next li {
@@ -104,8 +114,9 @@
 
 .InfoPanelwrapper {
     display: flex;
-    max-width: 414px;
+    max-width: 424px;
     gap: 50px;
+    padding-right: 10px;
 }
 
 .InfoPanelwrapper p {
@@ -131,6 +142,11 @@
     .footerInfoPanel {
         padding: 0 16px;
     }
+}
+@media (max-width: 926px) {
+    .footerNav ul{
+        margin-right: 0;
+ }
 }
 
 @media (max-width: 700px) {
@@ -196,6 +212,17 @@
     }
     .hub{
         margin-bottom: 18px;
+    }
+
+}
+@media (max-width: 462px) {
+    .footerNav ul{
+      margin-left: 0;
+
+    }
+    .footerContent {
+        padding: 0 0 0 16px;
+        margin-right: -6px;
     }
 
 }

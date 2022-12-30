@@ -11,7 +11,8 @@
 
 
 }
-.item .itemIcon:hover{
+
+.item .itemIcon:hover {
     stroke: #357EFE;
 }
 
@@ -25,8 +26,8 @@
     transform: translateY(-99%);
 
 
-
 }
+
 .itemArrow:hover {
     stroke: #357EFE;
 
@@ -38,5 +39,8 @@
     font-size: 16px;
     line-height: 135%;
     color: #232727;
+    padding-right: 49px;
+    padding-bottom: 11px;
+
 
 }

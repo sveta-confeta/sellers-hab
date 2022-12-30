@@ -33,11 +33,14 @@
 @media (max-width: 1250px){
     .popularCardWrapper{
         max-width: 343px;
+        min-height: 471px;
     }
     .popularCardImg{
         margin-bottom: 20px;
-        width: 305px;
+        width: 303px;
+        height: 219px;
         border-radius: 10px;
     }
+
 
     }

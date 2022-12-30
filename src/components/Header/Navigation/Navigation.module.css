@@ -3,11 +3,13 @@ ul.nav {
     justify-content: space-between;
     align-items: center;
 }
-ul.nav li:not(:last-child){
+
+ul.nav li:not(:last-child) {
     padding-right: 50px;
 
 }
-.nav li a{
+
+.nav li a {
     text-decoration: none;
     font-weight: 400;
     font-size: 18px;
@@ -16,10 +18,9 @@ ul.nav li:not(:last-child){
 }
 
 
-
 @media (max-width: 882px) {
- ul.nav{
-     display: none;
- }
+    ul.nav {
+        display: none;
+    }
 
 }

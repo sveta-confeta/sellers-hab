@@ -1,5 +1,5 @@
 .offerWrapper {
-    margin: 0 auto 150px auto;
+    margin: 0 auto 145px auto;
     max-width: 1200px;
     display: flex;
     gap: 82px;
@@ -12,6 +12,7 @@
     flex-direction: column;
     justify-content: center;
     justify-self: flex-start;
+    margin-bottom: 35px;
 }
 
 .offerContent h4 {
@@ -19,6 +20,7 @@
     font-size: 20px;
     line-height: 25px;
     color: #232727;
+    margin-bottom: 8px;
 }
 
 .offerContent p {
@@ -41,8 +43,8 @@
 
 .mainImg {
     position: relative;
-    width: 630px;
-    height: 550px;
+    width: 590px;
+    height: 520px;
     z-index: 1;
     border-radius: 10px;
 }
@@ -50,8 +52,8 @@
 .topImg {
     position: relative;
     z-index: 2;
-    bottom: 681px;
-    right: -249px;
+    bottom: 657px;
+    right: -208px;
     border-radius: 10px;
 }
 
@@ -59,14 +61,14 @@
     position: relative;
     z-index: -1;
     bottom: 263px;
-    right: -126px;
+    right: -95px;
 }
 
 .bottomImg {
     position: relative;
     z-index: 2;
     bottom: 326px;
-    right: -34px;
+    right: -19px;
     border-radius: 10px;
 }
 
@@ -95,7 +97,7 @@
     }
 
     .mainImg {
-        width: 343px;
+        width: 335px;
         height: 367px;
         object-fit: cover;
         border-radius: 7px;
@@ -114,18 +116,22 @@
         flex-direction: column;
         align-items: center;
     }
-
-    .imgWrapper {
-        margin-bottom: 24px;
-    }
     .offerContent li:not(:last-child) {
         margin-bottom: 24px;
     }
+    .offerContent li:nth-child(2){
+        margin-bottom: 50px;
+    }
 
 }
+
 @media (max-width: 446px) {
     .offerWrapper {
         align-items: flex-start;
+        margin: 0 auto 100px auto;
+    }
+    .offerContent {
+        margin-bottom: 0;
     }
 
 }

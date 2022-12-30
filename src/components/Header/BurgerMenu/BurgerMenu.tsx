@@ -4,7 +4,7 @@ import {Button} from "../../../common/Button/Button";
 
 export const BurgerMenu = () => {
     const [openMenu, setOpenMenu] = useState<boolean>(false);
-    const clickHandler=()=>{
+    const clickHandler = () => {
         setOpenMenu(!openMenu)
     }
     return (
@@ -21,29 +21,29 @@ export const BurgerMenu = () => {
                 </svg>
             </div>
 
-                <nav className={openMenu ?`${s.navbarMenu} ${s.menuActive}` : s.navbarMenu}>
-                    <ul className={s.navbarList}>
-                        <li className={s.navbarItem}>
-                            <a href="#">Каталог</a>
+            <nav className={openMenu ? `${s.navbarMenu} ${s.menuActive}` : s.navbarMenu}>
+                <ul className={s.navbarList}>
+                    <li className={s.navbarItem}>
+                        <a href="#">Каталог</a>
 
-                        </li>
-                        <li className={s.navbarItem}>
-                            <a href="#">Вопросы и Ответы</a>
+                    </li>
+                    <li className={s.navbarItem}>
+                        <a href="#">Вопросы и Ответы</a>
 
-                        </li>
-                        <li className={s.navbarItem}>
-                            <a href="#">Блог</a>
+                    </li>
+                    <li className={s.navbarItem}>
+                        <a href="#">Блог</a>
 
-                        </li>
-                        <li className={s.navbarItem}>
-                            <Button variant={"WHITE"} name={'Регистрация'} padding={"10px 15px"} size={"small"}/>
-                        </li>
-                        <li className={s.navbarItem}>
-                            <Button variant={"BLUE"} name={'Войти'} padding={"10px 15px"} size={"small"}/>
+                    </li>
+                    <li className={s.navbarItem}>
+                        <Button variant={"WHITE"} name={'Регистрация'} padding={"10px 15px"} size={"small"}/>
+                    </li>
+                    <li className={s.navbarItem}>
+                        <Button variant={"BLUE"} name={'Войти'} padding={"10px 40px"} size={"small"}/>
 
-                        </li>
-                    </ul>
-                </nav>
+                    </li>
+                </ul>
+            </nav>
 
         </>
     );

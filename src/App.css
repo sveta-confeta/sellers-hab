@@ -19,12 +19,12 @@ body{
     height: auto;
   }
 }
-@media (max-width: 769px) {
- /*body{*/
- /*  overflow-y:hidden;*/
- /*}*/
+/*@media (max-width: 769px) для убирания скролла на мобильных телефонах {*/
+/* body{*/
+/*  overflow-y:hidden;*/
+/* }*/
 
-}
+/*}*/
 
 
 

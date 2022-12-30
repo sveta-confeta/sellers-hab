@@ -13,7 +13,7 @@
 
 .contentPoster {
     position: absolute;
-    transform: translate(10%, 50%);
+    transform: translate(15%, 50%);
 }
 
 .title {
@@ -45,17 +45,31 @@
 @media (max-width: 830px) {
     .posterWrapper {
         max-width: 343px;
-        min-height: 554px;
-        background-position: top -44px  right -131px;
+        height: 554px;
+        background-position: top -44px right -131px;
+
 
     }
+
     .contentPoster {
         position: absolute;
-        transform: translate(10%, 148%);
+        transform: translate(7%, 144%);
+        overflow: hidden;
     }
+
     .title {
         font-size: 28px;
         line-height: 34px;
     }
 
+}
+@media (max-width: 452px) {
+    .title{
+        display: inline;
+    }
+    .contentPoster {
+        transform: translate(0, 156%);
+        padding-left: 23px;
+
+    }
 }

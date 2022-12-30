@@ -1,39 +1,41 @@
-.headerWrapper{
+.headerWrapper {
     border-bottom: 1px solid rgba(30, 30, 30, 0.5);
 }
-.header{
+
+.header {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     position: relative;
-
-
-
 }
-.logo{
+
+.logo {
     padding: 36px 0;
 
 }
-.btnGroup{
+
+.btnGroup {
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
 @media (max-width: 1250px) {
-    .header{
+    .header {
         padding: 0 16px;
     }
 
 }
+
 @media (max-width: 882px) {
-   .logo{
-       max-width: 124px;
-       padding: 26px 0 20px 0;
-   }
-    .btnGroup{
+    .logo {
+        max-width: 124px;
+        padding: 26px 0 20px 0;
+    }
+
+    .btnGroup {
         display: none;
     }
 

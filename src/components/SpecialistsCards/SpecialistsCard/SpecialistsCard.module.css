@@ -1,15 +1,16 @@
-.cardWrapper{
+.cardWrapper {
     min-height: 463px;
     max-width: 387px;
 }
 
-.title{
+.title {
     font-weight: 600;
     font-size: 20px;
     line-height: 115.8%;
     margin: 24px 0 12px 0;
 }
-.text{
+
+.text {
     font-weight: 400;
     font-size: 16px;
     line-height: 130%;
@@ -17,6 +18,7 @@
     width: 100%;
 
 }
+
 .contentVideo {
     width: 387px;
     height: 318px;
@@ -29,26 +31,23 @@ video {
 
 
 }
-.video{
+
+.video {
     object-fit: cover;
 }
 
 @media (max-width: 1250px) {
     .contentVideo {
         width: 343px;
-        height:282px;
+        height: 282px;
     }
-    .cardWrapper{
+
+    .cardWrapper {
         min-height: 282px;
         max-width: 343px;
     }
-    .contentVideo{
+
+    .contentVideo {
         margin-right: 20px;
     }
 }
-/*@media (max-width: 999px) {*/
-/*    .cardWrapper{*/
-/*        min-height: 400px;*/
-/*        max-width: 300px;*/
-/*    }*/
-/*}*/

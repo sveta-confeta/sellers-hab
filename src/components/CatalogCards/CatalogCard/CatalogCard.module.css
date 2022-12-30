@@ -1,4 +1,4 @@
-.card{
+.card {
     background: #F6F6FA;
     border-radius: 10px;
     padding: 32px 32px 0 32px;
@@ -8,20 +8,23 @@
     overflow: hidden;
 
 }
-.cardTitle{
+
+.cardTitle {
     margin-bottom: 12px;
     font-weight: 600;
     font-size: 20px;
     line-height: 115.8%;
 }
-.cardText{
+
+.cardText {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     color: #232727;
 }
+
 @media (max-width: 1250px) {
-    .card{
+    .card {
         max-width: 343px;
         padding: 24px 24px 0 24px;
     }
