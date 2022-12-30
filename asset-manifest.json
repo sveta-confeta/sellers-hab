@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/sellers-hab/static/css/main.d0a65a96.css",
+    "main.js": "/sellers-hab/static/js/main.a7dd4bad.js",
+    "static/js/787.40ba7ff7.chunk.js": "/sellers-hab/static/js/787.40ba7ff7.chunk.js",
+    "static/media/Main.mp4": "/sellers-hab/static/media/Main.0dc13361e84730781fa6.mp4",
+    "static/media/Cards2.mp4": "/sellers-hab/static/media/Cards2.f61564e4783740405063.mp4",
+    "static/media/Categories3.mp4": "/sellers-hab/static/media/Categories3.7f82357aa879791a2caf.mp4",
+    "static/media/Video1.mp4": "/sellers-hab/static/media/Video1.95b3dc894db06e18e990.mp4",
+    "static/media/MainPoster.png": "/sellers-hab/static/media/MainPoster.24e4d22af86063764af5.png",
+    "static/media/MainImg.jpg": "/sellers-hab/static/media/MainImg.db54ab832e448f72069f.jpg",
+    "static/media/ButtonsPosters.jpg": "/sellers-hab/static/media/ButtonsPosters.60114eb240a26c30e60f.jpg",
+    "static/media/infografic.jpg": "/sellers-hab/static/media/infografic.ada705314f94d391b675.jpg",
+    "static/media/thinks.jpg": "/sellers-hab/static/media/thinks.ddeeb9193c87c5861c3f.jpg",
+    "static/media/CarouselPoster.jpg": "/sellers-hab/static/media/CarouselPoster.b83a6087148a8c63d3a8.jpg",
+    "static/media/SpecialistPoster.jpg": "/sellers-hab/static/media/SpecialistPoster.abacc0ebba901b7a201a.jpg",
+    "static/media/Gilroy-Medium.woff": "/sellers-hab/static/media/Gilroy-Medium.7299347ad34bddeae499.woff",
+    "static/media/Gilroy-Bold.woff": "/sellers-hab/static/media/Gilroy-Bold.1d86ffe66e2c848892fe.woff",
+    "static/media/Gilroy-SemiBold.woff": "/sellers-hab/static/media/Gilroy-SemiBold.b53159dea9c94f832f80.woff",
+    "static/media/static.jpg": "/sellers-hab/static/media/static.9fb5c4770b3527d19a98.jpg",
+    "static/media/Gilroy-Regular.woff": "/sellers-hab/static/media/Gilroy-Regular.826d04fde24bbc0435f6.woff",
+    "static/media/SEO.png": "/sellers-hab/static/media/SEO.350bef1909b25e799e02.png",
+    "static/media/User Card.png": "/sellers-hab/static/media/User Card.4c83ea07f9bcf978d20a.png",
+    "static/media/FramePoster.png": "/sellers-hab/static/media/FramePoster.6a6d644c81a25b9f84bf.png",
+    "static/media/ForumPoster_front.png": "/sellers-hab/static/media/ForumPoster_front.36433cc899c078c7cf22.png",
+    "static/media/Gilroy-Bold.woff2": "/sellers-hab/static/media/Gilroy-Bold.a890101e1292bc8c92fd.woff2",
+    "static/media/Gilroy-Medium.woff2": "/sellers-hab/static/media/Gilroy-Medium.e2e018bbd3526e156ef0.woff2",
+    "static/media/Gilroy-SemiBold.woff2": "/sellers-hab/static/media/Gilroy-SemiBold.70561b455050e2a7e73e.woff2",
+    "static/media/Gilroy-Regular.woff2": "/sellers-hab/static/media/Gilroy-Regular.a89ac858796c04bb651a.woff2",
+    "static/media/TopImg.jpg": "/sellers-hab/static/media/TopImg.6c964eac965c617e7b8e.jpg",
+    "static/media/BottomImg.jpg": "/sellers-hab/static/media/BottomImg.26ba7930e301d5919bea.jpg",
+    "index.html": "/sellers-hab/index.html",
+    "main.d0a65a96.css.map": "/sellers-hab/static/css/main.d0a65a96.css.map",
+    "main.a7dd4bad.js.map": "/sellers-hab/static/js/main.a7dd4bad.js.map",
+    "787.40ba7ff7.chunk.js.map": "/sellers-hab/static/js/787.40ba7ff7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0a65a96.css",
+    "static/js/main.a7dd4bad.js"
+  ]
+}
